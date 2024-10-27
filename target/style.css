@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: none;
+}
+
+body {
+    background-image: url("images/001.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+button, #timer {
+    color: black;
+    border: 2px solid black;
+    background-color: aliceblue;
+    padding: 15px 45px;
+    font-size: 1.1rem;
+    margin-top: 3em;
+    outline: none;
+    cursor: none;
+}
+#timer {
+    color: red;
+}
+
+.bloodSpot {
+    position: absolute;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.cursor {
+    position: absolute;
+    height: 70px;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 2;
+}
+
+#enemy {
+    height: 200px;
+    display: none;
+    position: absolute;
+}

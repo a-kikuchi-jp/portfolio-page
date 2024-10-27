@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+#game {
+    background-color: antiquewhite;
+}
+
+.field {
+    margin: 40px auto;
+    padding: 0px;
+    border: 1px solid black;
+    width: 385px;
+    cursor: pointer;
+}
+
+.container {
+    width: 384px;
+    height: 133px;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    background-color: aquamarine;
+} 
+
+.container .tile {
+    width: 128px;
+    border: 1px solid black;
+}
+
+div[data-index="1"] {
+    background: url("images/monkey_original\ 384px.jpg") no-repeat top center;
+}
+div[data-index="2"] {
+    background: url("images/monkey_original\ 384px.jpg") no-repeat top right;
+}
+div[data-index="3"] {
+    background: url("images/monkey_original\ 384px.jpg") no-repeat center left;
+}
+div[data-index="4"] {
+    background: url("images/monkey_original\ 384px.jpg") no-repeat center center;
+}
+div[data-index="5"] {
+    background: url("images/monkey_original\ 384px.jpg") no-repeat center right;
+}
+div[data-index="6"] {
+    background: url("images/monkey_original\ 384px.jpg") no-repeat bottom left;
+}
+div[data-index="7"] {
+    background: url("images/monkey_original\ 384px.jpg") no-repeat bottom center;
+}
+div[data-index="8"] {
+    background: url("images/monkey_original\ 384px.jpg") no-repeat bottom right;
+}
+
+h1 {
+    text-align: center;
+}
+
+#timer {
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    margin: 0px;
+}

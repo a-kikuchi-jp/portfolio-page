@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+#message {
+    margin-top: 0;
+    font-size: 30px;
+    color: red;
+}
